@@ -28,4 +28,6 @@ Capturas:
 
 ![image](https://github.com/user-attachments/assets/9d952817-c5d0-4330-bcc3-e7099e920f83)
 
+Codigo: ver "puntouno.py"
+
 
