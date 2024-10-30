@@ -1,5 +1,7 @@
 # parcial segundo corte Cristian Bello
-punto 1
+
+
+# punto 1
 
 ¿Qué es un perceptrón y para qué sirve? 
 Un perceptrón es una neurona artificial, la cual se usa para las redes neuronales. Las neuronas artificiales imitan el funcionamiento de las neuronas del cerebro.
@@ -28,6 +30,11 @@ Capturas:
 
 ![image](https://github.com/user-attachments/assets/9d952817-c5d0-4330-bcc3-e7099e920f83)
 
-Codigo: ver "puntouno.py"
+Codigo: ver "puntouno.nlogo"
+
+
+# Punto 2
+
+
 
 
