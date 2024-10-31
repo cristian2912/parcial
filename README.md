@@ -49,4 +49,4 @@ Implementacion:
 
 Importé la librería kotlin.math, para poder usar funciones matemáticas como: (seno, coseno, etc...) luego creé una clase llamada BaseCalculadora, que contiene métodos para realizar operaciones aritméticas básicas: (suma, resta, multiplicación y división) los metodos pueden ser sobrescritos por clases que hereden de esta gracias a "open" después, cree una clase llamada CalculadoraAvanzada, que hereda de BaseCalculadora. Esta clase incluye operaciones matemáticas avanzadas y una variable privada para manejar la memoria de la calculadora, es por estto que añadí funciones para manejar una memoria privada, esas funciones permiten agregar, reiniciar, recuperar y limpiar el valor almacenado en memoria, para finalizar implementé la función principal y utilizo println para mostrar los resultados de las operaciones en la consola.
 
-Codigo: ver
+Codigo: ver Main.kt
