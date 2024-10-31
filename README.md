@@ -4,6 +4,7 @@
 # punto 1
 
 ¿Qué es un perceptrón y para qué sirve? 
+
 Un perceptrón es una neurona artificial, la cual se usa para las redes neuronales. Las neuronas artificiales imitan el funcionamiento de las neuronas del cerebro.
 En ese orden de ideas, un Perceptrón es una neurona artificial, es por esto, que el perceptrón hace cálculos para detectar características en los datos de entrada, esto a partir de una algoritmo de aprendizaje, el cual permite que las neuronas artificiales aprendan y traten cada uno de los elementos que contiene una serie de datos, es importante recordar que el aprendizaje que tiene el perceptrón consiste en enseñarle al algoritmo a hacer predicciones, para esto se debe alimentar el algoritmo con datos.
 El perceptrón es una función matemática, los datos de entrada se multiplican por los coeficientes de peso y el resultado es un valor, el cual puede ser positivo o negativo, la neurona solo se activa si el valor es positivo y solo se activa si el peso calculado de la entrada supera un umbral determinado, por último, el resultado de la predicción se compara con resultados conocidos y en caso de diferencia, el error se retro propaga para que se puedan ajustar los pesos
@@ -42,5 +43,10 @@ Después, defini la clase ModeloCalculadora, que hereda de Model. Esta clase rep
 Codigo: ver puntodos.py
 
 
+# Punto 3
 
+Implementacion:
 
+Importé la librería kotlin.math, para poder usar funciones matemáticas como: (seno, coseno, etc...) luego creé una clase llamada BaseCalculadora, que contiene métodos para realizar operaciones aritméticas básicas: (suma, resta, multiplicación y división) los metodos pueden ser sobrescritos por clases que hereden de esta gracias a "open" después, cree una clase llamada CalculadoraAvanzada, que hereda de BaseCalculadora. Esta clase incluye operaciones matemáticas avanzadas y una variable privada para manejar la memoria de la calculadora, es por estto que añadí funciones para manejar una memoria privada, esas funciones permiten agregar, reiniciar, recuperar y limpiar el valor almacenado en memoria, para finalizar implementé la función principal y utilizo println para mostrar los resultados de las operaciones en la consola.
+
+Codigo: ver
