@@ -35,6 +35,12 @@ Codigo: ver "puntouno.nlogo"
 
 # Punto 2
 
+Para la implementación importé las clases necesarias del paquete mesa, que es una biblioteca de Python para la creación de modelos de simulación, importé Agentpara crear agentes y Modelpara crear el modelo en sí, importé BaseSchedulerde mesa.timepara gestionar la programación de los agentes, luego creé una clase llamada CalculadoraAgentque hereda de Agent, esta clase representa un agente que puede realizar diferentes operaciones matemáticas. Dentro del constructor __init__, inicialicé el agente con un identificador único ( id_unico), el modelo al que pertenece ( modelo), y el tipo de operación que puede realizar ( tipo_operacion) despues de esto, implementé el método realizar_operacion, que toma dos números ( x y y) y realiza la operación correspondiente según el tipo_operaciondel agente, aqui use las operaciones necesarias: suma, resta, multiplicación, división y potencia.
+
+Después, defini la clase ModeloCalculadora, que hereda de Model. Esta clase representa el modelo completo que contiene los agentes,en el constructor de este modelo, inicialicé el programador ( scheduler) y creé instancias de CalculadoraAgent para cada tipo de operación matematica, despues implemente el método ejecutar_calculo, que recibe un operador y dos números y llama al agente correspondiente para realizar la operación, por ultimo, cree una función llamada iniciar_calculadora que permite a los usuarios interactuar con la calculadora, se le pide al usuario que introduzca una operación y en caso de que ya se termine escribe "salir" y listo.
+
+Codigo: ver puntodos.py
+
 
 
 
